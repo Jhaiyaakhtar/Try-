@@ -1,0 +1,23 @@
+# Try-
+Game number try
+import random
+randomnumber = random.randrange(1,200)
+#print (randomnumber)
+userinput = int(input("guess the number 1-200 limit:"))
+
+if userinput > randomnumber:
+  print (randomnumber)
+
+  print ("the number is to high")
+elif randomnumber>userinput :
+  print (randomnumber)
+
+  print ("the number is too low")
+else:
+  print (randomnumber)
+
+  print ("yes, you matched the number")
+  
+  
+
+
