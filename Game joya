@@ -1,5 +1,5 @@
 # Try-
-Game number try
+#Game number try
 import random
 randomnumber = random.randrange(1,200)
 #print (randomnumber)
